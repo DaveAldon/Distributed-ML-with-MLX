@@ -15,6 +15,14 @@ You'll find all of the relevant files referenced in the readme inside this repo:
 
 Let's get started!
 
+> [!NOTE]
+> I gave a conference talk walking through all of the fundamentals in this repo at [Beer City Code 2025](https://www.beercitycode.com/)!
+
+![](/resources/beer-city-code.jpg)
+
+> [!CAUTION]
+> Because MLX is an ever-changing framework, some features get abstracted and **easier** to use! As of August 9th, 2025, MLX has [support for distributed training without requiring MPI to be invoked directly](https://ml-explore.github.io/mlx/build/html/usage/distributed.html). While this is great and simplifies a lot of headaches, this repo's section on MPI is still relevant so that you can understand the fundamentals going on behind the scenes.
+
 ### Our use case
 
 Wowed by all of the fancy models being produced every week it seems, and the agency offered by locally hosting them with products like webAI, I wondered how I could get by without a super computer. Luckily, running inference on these advanced models doesn't take much more than a Raspberry Pi in some cases. But what if the model doesn't do what I need it to do? What if I wanted it to do something really niche, teach it something new or not publicly available?
@@ -1141,6 +1149,9 @@ My goal for the final section is for you to be well equipped with the terminolog
 ## Full Script
 
 Here is the full python script we used in this section:
+
+> [!IMPORTANT]
+> Take a look at this repo's source for this file, as there have been updates that may or may not resolve issues you could have running this out of the box.
 
 ```python
 import argparse
